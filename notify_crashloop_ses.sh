@@ -10,7 +10,7 @@ fi
 NAMESPACE=$1
 RECIPIENT=$2
 SENDER=$3
-AWS_REGION=${4:-us-east-1}
+AWS_REGION=${4:-il-central-1}
 
 # Dependencies check
 if ! command -v kubectl &> /dev/null; then
